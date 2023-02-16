@@ -1,0 +1,438 @@
+
+/* ------------------------------
+        common styles
+--------------------------------- */
+*{
+    margin: 0;
+    padding: 0;  
+}
+body{
+     font-family: 'Work Sans', sans-serif;
+}
+/*------------------------------------
+        top-header design start
+ -------------------------------------  */
+.top-navbar{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 100px;
+}
+.logo h1{
+    font-size: 45px;
+    font-weight: 700;
+}
+ul{
+    display: flex;
+}
+ul li{
+    list-style: none;
+}
+ul li a{
+    text-decoration: none;
+    margin-left: 50px;
+    font-size: 18px;
+    font-weight: 500;
+    color: #727272;
+}
+.top-header{
+    background-color: #fff4e7;
+    width:100%;
+    height: auto;
+}
+.top-content{
+    max-width: 1140px;
+    margin: 0 auto;
+    padding-bottom: 50px;
+}
+.banner-content{
+   margin: 0 auto;
+   text-align: center;
+}
+.banner-title{
+    font-size: 4em;
+    font-weight: 700;
+    color: #131313;
+    margin-bottom: 10px;
+}
+.banner-des{
+    font-size: 1em;
+    font-weight: 400;
+    color: #727272;
+    margin-bottom:50px ;
+
+}
+.btn-primary{
+    width: 180px;
+    height: 60px;
+    color: #ffffff;
+    background-color: #ff900e;
+    border: 0;
+    border-radius: 8px;
+    margin-bottom: 37px;
+    font-size: 20px;
+    font-weight: 600;
+}
+.banner-img img{
+    width:100% ;
+}
+/*------------------------------------
+        top-header design start
+ -------------------------------------  */
+
+
+/* ------------------------------------
+           feature design start
+--------------------------------------- */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+    margin-top: 85px;
+}
+.features{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 130px;
+}
+.feature-img {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+}
+.feature-img img{
+    width: 240px;
+}
+.feature-content{
+    width: 530px;
+}
+.feature-title{
+    font-size: 2.8em;
+    font-weight: 500;
+    margin-bottom: 31px;
+}
+.feature-des{
+    font-size: 1em;
+    font-weight: 400;
+    color: #727272;
+    margin-bottom: 30px;
+}
+/* ------------------------------------
+           feature design end
+--------------------------------------- */
+
+
+/* ------------------------------------------
+    love & enjoy  sections design start
+--------------------------------------------- */
+.love-enjoy-section{
+    display: flex;
+    margin-bottom: 130px;
+}
+.enjoy-content{
+ margin-right: 50px;
+}
+.enjoy-content-title{
+    font-size: 45px;
+    font-weight: 700;
+    color: black;
+    padding-left: 23px;
+    border-left: 2px solid #ff900e;
+    margin-bottom: 27px;
+    margin-top: 30px;
+}
+.enjoy-content-dsc{
+    font-size: 16px;
+    font-weight: 400;
+    color: #727272;
+    margin-bottom: 27px;
+}
+.article{
+    padding: 40px 40px 40px 30px;
+    margin-bottom: 20px;
+    box-shadow: 1px 0px 20px rgb(244, 244, 244);
+    border-radius:8px ;
+}
+.article-title{
+    font-size: 20px;
+    font-weight: bold;
+}
+.article-dsc{
+
+}
+.love-enjoy-img{
+    width: 100%;
+}
+.other{
+    margin-top:-50px;
+    margin-left: -40px;
+    width: 250px;
+    height: 120px;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 30px;
+}
+span{
+    font-size: 18px;
+}
+/* ------------------------------------------
+    love & enjoy  sections design end
+--------------------------------------------- */
+
+
+/* --------------------------------------
+        some facts style start
+------------------------------------------ */
+.some-fact{
+    margin-bottom: 180px;
+}
+.some-fact-title{
+    font-size: 45px;
+    font-weight: 700;
+}
+.some-fact-des{
+    font-size: 16px;
+    font-weight: 400;
+    color:  #727272;
+    
+}
+.some-fact-box{
+    display: flex;
+    justify-content: space-around;
+}
+.box{
+    height: 150px;
+    width: 150px;
+    margin-top: 60px;
+    text-align: center;
+    padding: 20px;
+    border: 2px solid #ff900e;
+    border-radius: 8px;
+}
+  .box:hover {
+    background-color: #ff900e;
+    color: white;
+    -webkit-animation-name: wiggle;
+    -ms-animation-name: wiggle;
+    -ms-animation-duration: 700ms;
+    -webkit-animation-duration: 700ms;
+    -webkit-animation-iteration-count: 1;
+    -ms-animation-iteration-count: 1;
+    -webkit-animation-timing-function: ease-in-out;
+    -ms-animation-timing-function: ease-in-out;
+  }
+  @-webkit-keyframes wiggle {
+    0% {-webkit-transform: rotate(10deg);}
+    25% {-webkit-transform: rotate(-15deg);}
+    50% {-webkit-transform: rotate(25deg);}
+    75% {-webkit-transform: rotate(-15deg);}
+    100% {-webkit-transform: rotate(0deg);}
+  }
+  @-ms-keyframes wiggle {
+    0% {-ms-transform: rotate(1deg);}
+    25% {-ms-transform: rotate(-1deg);}
+    50% {-ms-transform: rotate(1.5deg);}
+    75% {-ms-transform: rotate(-5deg);}
+    100% {-ms-transform: rotate(0deg);}
+  }
+  @keyframes wiggle {
+    0% {transform: rotate(10deg);}
+    25% {transform: rotate(-10deg);}
+    50% {transform: rotate(20deg);}
+    75% {transform: rotate(-5deg);}
+    100% {transform: rotate(0deg);}
+  }
+.point{
+    font-size: 45px;
+    font-weight: 600;
+}
+.box-dsc{
+    font-size: 20px;
+    font-weight: 600;
+    color: #727272;
+}
+/* ---------------------------------------
+        some facts style end
+------------------------------------------ */
+
+
+/*-----------------------------------------------
+             Our Sponspors design start
+--------------------------------------------------*/
+.our-Sponspors{
+    margin-bottom: 150px;
+}
+.text{
+    text-align: center;
+}
+.Our-Sponspors-title{
+    font-size:45px ;
+    font-weight:700 ;
+    margin-bottom: 24px;
+}
+.our-Sponspors-dsc{
+    font-weight: 400;
+    font-size:16px ;
+    color: #727272;
+    margin-bottom: 55px;
+}
+.brands{
+    display: flex;
+    justify-content: space-between;
+}
+.brands img{
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+}
+/*-----------------------------------------------
+             Our Sponspors design end
+--------------------------------------------------*/
+
+.social-media{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:  #F9F3F5;
+    border-radius: 8px;
+    margin: 100px 0;
+    padding: 20px 10px 20px 10px;
+
+}
+.social-info{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 50px;
+}
+.social-media-title{
+    font-size: 2em;
+    text-align: center;
+    font-weight: 500;
+}
+.social-media-dsc{
+    font-size: 1em;
+    font-weight: 300;
+    text-align: center;
+}
+.icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 20px;
+}
+
+/* ------------------------------------------
+                footer design start
+--------------------------------------------- */
+.footer{
+    background-color: #fff4e7;
+    height: 100px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+}
+.footer p{
+    font-size: 1.25em;
+    font-weight: 400;
+    color: #727272;
+}
+/* ------------------------------------------
+                footer design start
+--------------------------------------------- */
+
+
+/* ----------------------------------------------------------------
+    mobile device(576px max) responsive layout  start
+-------------------------------------------------------------------*/
+@media only screen and (max-width:576px){
+    .top-navbar {
+        flex-direction: column;
+    }
+    .top-navbar ul{
+        flex-direction: column;
+    }
+    .features{
+        flex-direction: column;
+    }
+    .feature-img {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 24px;
+        align-items: center;
+        justify-content: center;
+    }
+    .love-enjoy-section {
+        flex-wrap: wrap;
+        flex-direction: column;   
+    }
+    .some-fact-box {
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-items: center;
+    }
+    .brands {
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-items: center;
+    }
+    .brands img{
+        margin-top: 10px;
+    }
+    .some-fact-title, .some-fact-des{
+        text-align: center;
+        padding: 10px;
+    }
+    .banner-text{
+        padding: 10px;
+    }
+    .feature-content{
+        align-items: center;
+        justify-content: center;
+        
+    }
+    .love-enjoy-img img{
+        width:70% ;
+        margin-left: 1em;
+    }
+    .other{
+        margin-top:50px;
+    margin-left: 40px;
+    }
+    .social-media {
+        flex-direction: column;
+    }
+    .social-info {
+        flex-direction: column-reverse;
+    }
+}
+/* ----------------------------------------------------------------
+            mobile device responsive layout ends
+-------------------------------------------------------------------*/
+
+
+/* ----------------------------------------------------------------
+            tablet device responsive layout  start
+-------------------------------------------------------------------*/
+@media  only screen and (min-width:577px) and (max-width:768px) {
+    .features {
+        flex-direction: column-reverse;
+    }
+    .love-enjoy-section {
+        flex-direction: column;
+    }
+    .some-fact-box {
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-items: center;
+    }
+    .brands {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+/* ----------------------------------------------------------------
+            tablet device responsive layout  ends
+-------------------------------------------------------------------*/
